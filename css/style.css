@@ -401,7 +401,7 @@ nav .container .btn:hover a {
     transform: scale(1);
 }
 
-#project .container .main .right  .overlay h4 {
+#project .container .main .right .overlay h4 {
     width: 290px;
     color: var(--White, #FFF);
     font-family: Poppins;
@@ -411,7 +411,7 @@ nav .container .btn:hover a {
     line-height: 36px;
 }
 
-#project .container .main .right  .overlay a {
+#project .container .main .right .overlay a {
     color: #FCD980;
     font-size: 16px;
     font-style: normal;
@@ -420,7 +420,7 @@ nav .container .btn:hover a {
     margin-top: 10px;
 }
 
-#project .container .main .right  .overlay a:hover {
+#project .container .main .right .overlay a:hover {
     color: #4ce3f0;
 }
 
@@ -475,8 +475,8 @@ nav .container .btn:hover a {
 }
 
 #part_2 .container .product .box:hover {
-    box-shadow: 0px 0px 64px 5px rgba(0,0,0,0.16),
-0px 3px 6px 0px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 64px 5px rgba(0, 0, 0, 0.16),
+        0px 3px 6px 0px rgba(0, 0, 0, 0.23);
 }
 
 #part_2 .container .product .box img {
@@ -812,6 +812,7 @@ nav .container .btn:hover a {
 #blog_part {
     padding: 128px 0;
 }
+
 #blog_part .container .title {
     margin-bottom: 64px;
 }
