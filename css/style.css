@@ -47,7 +47,7 @@ nav .container .menu ul {
 }
 
 nav .container .menu ul li a {
-    color: #BBBBCB;
+    color: #bbbbcb;
     font-size: 16px;
     font-weight: 500;
     position: relative;
@@ -63,7 +63,7 @@ nav .container .menu ul li a::after {
     bottom: 0;
     background: white;
     z-index: -1;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 nav .container .menu ul li a:hover::after {
@@ -79,11 +79,11 @@ nav .container .btn a {
     border-radius: 41px;
     border: 2px solid rgba(244, 246, 252, 0.37);
     color: white;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 nav .container .btn:hover a {
-    background: #FCD980;
+    background: #fcd980;
     color: black;
 }
 
@@ -127,22 +127,20 @@ nav .container .btn:hover a {
 #banner_part .container .banner_left button {
     padding: 12px 56px;
     border-radius: 41px;
-    background: #FCD980;
-    font-family: 'Manrope', sans-serif;
+    background: #fcd980;
+    font-family: "Manrope", sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 32px;
     border: 1px solid transparent;
-    color: #1B1C2B;
-    transition: .4s all linear;
+    color: #1b1c2b;
+    transition: 0.4s all linear;
 }
 
 #banner_part .container .banner_left button:hover {
     background: transparent;
     color: rgba(255, 255, 255, 0.432);
     border-color: rgba(255, 255, 255, 0.686);
-
-
 }
 
 #banner_part .container .banner_left a {
@@ -151,7 +149,7 @@ nav .container .btn:hover a {
     font-size: 16px;
     font-weight: 500;
     padding: 10px;
-    transition: .5s;
+    transition: 0.5s;
     border-radius: 70%;
 }
 
@@ -173,7 +171,7 @@ nav .container .btn:hover a {
 
 /* ===== section part 1 start ===== */
 #bg_part_1 {
-    background: #F4F6FC;
+    background: #f4f6fc;
 }
 
 #bg_part_1 .container .work {
@@ -202,7 +200,7 @@ nav .container .btn:hover a {
 }
 
 #bg_part_1 .container .work .left a {
-    color: #2405F2;
+    color: #2405f2;
     font-size: 18px;
     font-weight: 500;
 }
@@ -266,7 +264,7 @@ nav .container .btn:hover a {
     font-weight: 500;
     line-height: 28px;
     align-items: center;
-    transition: .4s;
+    transition: 0.4s;
     padding: 5px;
 }
 
@@ -299,12 +297,14 @@ nav .container .btn:hover a {
 #project .container .main .left .overlay {
     width: 396px;
     height: 100%;
-    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    background: linear-gradient(329deg,
+            #1c1e53 -10.96%,
+            rgba(28, 30, 83, 0.42) 103.96%);
     position: absolute;
     left: -100%;
     top: 0;
     opacity: 0;
-    transition: .4s;
+    transition: 0.4s;
     /* ======= */
     display: flex;
     flex-direction: column;
@@ -328,7 +328,7 @@ nav .container .btn:hover a {
 
 #project .container .main .left .overlay p {
     width: 293px;
-    color: #FFF;
+    color: #fff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -338,7 +338,7 @@ nav .container .btn:hover a {
 
 #project .container .main .left .overlay a {
     width: 150px;
-    color: #FCD980;
+    color: #fcd980;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -349,7 +349,7 @@ nav .container .btn:hover a {
 
 #project .container .main .left .overlay a:hover {
     color: #fff;
-    transition: .4s;
+    transition: 0.4s;
     background: #f4b515d6;
 }
 
@@ -375,7 +375,9 @@ nav .container .btn:hover a {
 }
 
 #project .container .main .right .overlay {
-    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    background: linear-gradient(329deg,
+            #1c1e53 -10.96%,
+            rgba(28, 30, 83, 0.42) 103.96%);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -387,7 +389,7 @@ nav .container .btn:hover a {
     flex-direction: column;
     justify-content: flex-end;
     padding: 129px 36px 45px 56px;
-    transition: .6s;
+    transition: 0.6s;
     transform: scale(0);
 }
 
@@ -403,7 +405,7 @@ nav .container .btn:hover a {
 
 #project .container .main .right .overlay h4 {
     width: 290px;
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-family: Poppins;
     font-size: 24px;
     font-style: normal;
@@ -412,7 +414,7 @@ nav .container .btn:hover a {
 }
 
 #project .container .main .right .overlay a {
-    color: #FCD980;
+    color: #fcd980;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -471,7 +473,7 @@ nav .container .btn:hover a {
     width: 405px;
     height: 316px;
     background: #fff;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 #part_2 .container .product .box:hover {
@@ -505,9 +507,8 @@ nav .container .btn:hover a {
 
 /* ===== section_part 3 start ===== */
 
-
 #part_3 {
-    background: #F4F6FC;
+    background: #f4f6fc;
 }
 
 #part_3 .container .about {
@@ -540,7 +541,6 @@ nav .container .btn:hover a {
 #part_3 .container .about .right {
     width: 843px;
     padding-top: 130px;
-
 }
 
 #part_3 .container .about .right p {
@@ -603,7 +603,6 @@ nav .container .btn:hover a {
 #faq_part .container {
     display: flex;
     justify-content: space-between;
-
 }
 
 #faq_part .container .left {
@@ -619,7 +618,7 @@ nav .container .btn:hover a {
 }
 
 #faq_part .container .left p {
-    color: var(--Royal-Blue, #2405F2);
+    color: var(--Royal-Blue, #2405f2);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -637,13 +636,12 @@ nav .container .btn:hover a {
     display: flex;
     justify-content: space-between;
     padding: 32px 0 32px 25px;
-    border-bottom: 2px solid #ECECF1;
+    border-bottom: 2px solid #ececf1;
 }
 
 #faq_part .container .right ul li:first-child {
     padding-top: 8px;
     padding-bottom: 48px;
-
 }
 
 #faq_part .container .right ul li:last-child {
@@ -657,7 +655,7 @@ nav .container .btn:hover a {
 }
 
 #faq_part .container .right ul li .innnertext span {
-    color: var(--Royal-Blue, #2405F2);
+    color: var(--Royal-Blue, #2405f2);
     text-align: center;
     font-size: 24px;
     font-style: normal;
@@ -687,8 +685,6 @@ nav .container .btn:hover a {
 
 /* ===== Form part Start ===== */
 
-
-
 #form_part .container {
     display: flex;
 }
@@ -706,7 +702,7 @@ nav .container .btn:hover a {
 
 #form_part .container .left::after {
     content: "";
-    background: rgba(28, 30, 83, 0.50);
+    background: rgba(28, 30, 83, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -716,7 +712,7 @@ nav .container .btn:hover a {
 }
 
 #form_part .container .left h2 {
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-size: 54px;
     font-style: normal;
     font-weight: 600;
@@ -724,7 +720,7 @@ nav .container .btn:hover a {
 }
 
 #form_part .container .left p {
-    color: #FFF;
+    color: #fff;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -734,12 +730,12 @@ nav .container .btn:hover a {
 
 #form_part .container .right {
     width: 624px;
-    background: #1C1E53;
+    background: #1c1e53;
     padding: 96px 96px 48px 96px;
 }
 
 #form_part .container .right h3 {
-    color: #FFF;
+    color: #fff;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
@@ -747,7 +743,7 @@ nav .container .btn:hover a {
 }
 
 #form_part .container .right p {
-    color: var(--Grey, #F4F6FC);
+    color: var(--Grey, #f4f6fc);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -762,7 +758,7 @@ nav .container .btn:hover a {
 }
 
 #form_part .container .right form input {
-    color: var(--Grey, #F4F6FC);
+    color: var(--Grey, #f4f6fc);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -776,14 +772,14 @@ nav .container .btn:hover a {
 
 #form_part .container .right form button {
     padding: 16px;
-    color: #1B1C2B;
+    color: #1b1c2b;
     font-family: Manrope;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px;
     border-radius: 41px;
-    background: #FCD980;
+    background: #fcd980;
     border: 0;
     outline: 0;
     margin-top: 23px;
@@ -791,7 +787,7 @@ nav .container .btn:hover a {
 
 #form_part .container .right a {
     display: block;
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -807,7 +803,6 @@ nav .container .btn:hover a {
 /* ===== Form part End ===== */
 /* =========================================================================================================================== */
 /* ===============Blog part part start=================== */
-
 
 #blog_part {
     padding: 128px 0;
@@ -882,7 +877,7 @@ nav .container .btn:hover a {
 /* =============== Footer part part start =================== */
 
 footer {
-    background: #1C1E53;
+    background: #1c1e53;
 }
 
 footer .container {
@@ -898,7 +893,7 @@ footer .container .left {
 footer .container .left p {
     width: 399px;
     margin: 22px 0 86px;
-    color: var(--White, #FFF);
+    color: var(--White, #fff);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -907,7 +902,7 @@ footer .container .left p {
 }
 
 footer .container .left .contact {
-    background: var(--Yellow, #FCD980);
+    background: var(--Yellow, #fcd980);
     padding: 18px 37px 16px;
     width: 517px;
     display: flex;
@@ -957,7 +952,7 @@ footer .container .right {
 }
 
 footer .container .right h4 {
-    color: #FFF;
+    color: #fff;
     font-family: Poppins;
     font-size: 48px;
     font-style: normal;
@@ -967,7 +962,7 @@ footer .container .right h4 {
 }
 
 footer .container .right p {
-    color: var(--Grey, #F4F6FC);
+    color: var(--Grey, #f4f6fc);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -985,7 +980,7 @@ footer .container .right .icon {
 footer .container .right .icon a i {
     font-size: 16px;
     color: #fff;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 footer .container .right .icon a i:hover {
@@ -1040,7 +1035,7 @@ footer .last_part .container ul li a::after {
     width: 0;
     height: 1px;
     background: #282938;
-    transition: .4s;
+    transition: 0.4s;
 }
 
 footer .last_part .container ul li a:hover::after {
