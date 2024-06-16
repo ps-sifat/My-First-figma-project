@@ -1027,6 +1027,7 @@ footer .last_part .container ul li a {
     position: relative;
 }
 
+
 footer .last_part .container ul li a::after {
     content: "";
     position: absolute;
